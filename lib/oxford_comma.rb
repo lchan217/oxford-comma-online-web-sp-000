@@ -5,7 +5,7 @@ def oxford_comma(array)
       "#{array[0]} and #{array[1]}"
     else
       array.each_with_index |ingredient, index|
-        "#{ingredient[i]}" + "#{array[0]} and #{array[1]}"
-      
+        "#{ingredient[i]}," + "#{array[0]}, and #{array[1]}"
+      end
   end 
 end 
